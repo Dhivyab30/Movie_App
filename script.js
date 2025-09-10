@@ -37,7 +37,7 @@ function showMovies(movies) {
         </div>
         `
         main.appendChild(movieEl)
-    })
+    }
 }
 
 function getClassByRate(vote) {
@@ -62,4 +62,4 @@ form.addEventListener('submit', (e) => {
     } else {
         window.location.reload()
     }
-})
+}
